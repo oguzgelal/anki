@@ -9,9 +9,9 @@
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  background: #4B79A1;
-  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
-  background: linear-gradient(to right, #283E51, #4B79A1);
+  background: #D38312;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   padding-top: 32px;
 }
@@ -30,22 +30,22 @@
 .front_text {
   color: white;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 20px;
-  height: 20px;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 .back {
   width: 70%;
   margin: auto;
-  background-color: #edf1f5;
+  background-color: rgba(255, 255, 255, .85);
   padding: 12px;
   border-radius: 4px;
 }
 
 .back_text {
   color: #070c10;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 20px;
 }
  
 .back_subtext {
