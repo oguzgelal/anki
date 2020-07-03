@@ -1,1 +1,1 @@
-/Users/oguzgelal/Library/Application Support/Anki2/Oguz/collection.media
+/Users/oguzgelal/Library/Application\ Support/Anki2/Oguz/collection.media
